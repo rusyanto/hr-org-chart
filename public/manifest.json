@@ -34,27 +34,27 @@
       "fields": [
         {
           "alias": "orgUnit04",
-          "columnName": "Org Unit\nName 04"
+          "columnName": "Org Unit\\nName 04"
         },
         {
           "alias": "orgUnit05",
-          "columnName": "Org Unit\nName 05"
+          "columnName": "Org Unit\\nName 05"
         },
         {
           "alias": "orgUnit06",
-          "columnName": "Org Unit\nName 06"
+          "columnName": "Org Unit\\nName 06"
         },
         {
           "alias": "orgUnit07",
-          "columnName": "Org Unit\nName 07"
+          "columnName": "Org Unit\\nName 07"
         },
         {
           "alias": "orgUnit08",
-          "columnName": "Org Unit\nName 08"
+          "columnName": "Org Unit\\nName 08"
         },
         {
           "alias": "orgUnit09",
-          "columnName": "Org Unit\nName 09"
+          "columnName": "Org Unit\\nName 09"
         },
         {
           "alias": "posId",
