@@ -27,5 +27,82 @@
     "width": 5,
     "height": 3
   },
-  "mapping": []
+  "mapping": [
+    {
+      "alias": "orgChart",
+      "dataSetId": "4a71e999-1026-4ff6-8b58-11e48f4941eb",
+      "fields": [
+        {
+          "alias": "orgUnit04",
+          "columnName": "Org Unit\nName 04"
+        },
+        {
+          "alias": "orgUnit05",
+          "columnName": "Org Unit\nName 05"
+        },
+        {
+          "alias": "orgUnit06",
+          "columnName": "Org Unit\nName 06"
+        },
+        {
+          "alias": "orgUnit07",
+          "columnName": "Org Unit\nName 07"
+        },
+        {
+          "alias": "orgUnit08",
+          "columnName": "Org Unit\nName 08"
+        },
+        {
+          "alias": "orgUnit09",
+          "columnName": "Org Unit\nName 09"
+        },
+        {
+          "alias": "posId",
+          "columnName": "Pos ID"
+        },
+        {
+          "alias": "posTitle",
+          "columnName": "Pos Title"
+        },
+        {
+          "alias": "chiefPos",
+          "columnName": "Chief Pos"
+        },
+        {
+          "alias": "posTypeAndTerm",
+          "columnName": "Pos Type and Term"
+        },
+        {
+          "alias": "posGrade",
+          "columnName": "Pos Grade"
+        },
+        {
+          "alias": "posEndDate",
+          "columnName": "Pos End date"
+        },
+        {
+          "alias": "empId",
+          "columnName": "Emp ID"
+        },
+        {
+          "alias": "firstName",
+          "columnName": "First Name"
+        },
+        {
+          "alias": "lastName",
+          "columnName": "Last Name"
+        },
+        {
+          "alias": "preferredName",
+          "columnName": "Preferred name"
+        },
+        {
+          "alias": "substantivePos",
+          "columnName": "Substantive pos"
+        }
+      ]
+    }
+  ],
+  "id": "bcce50c0-8d96-4226-8f73-fbf8bfb52ada",
+  "proxyId": "a65d9f77-0162-43ea-8a12-38a7b5f24023"
 }
