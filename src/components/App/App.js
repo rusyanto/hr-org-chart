@@ -1,44 +1,34 @@
 import React from 'react';
-import { Chart } from 'react-google-charts';
+import createMuiTheme from '@material-ui/core/styles/createMuiTheme';
+import ThemeProvider from '@material-ui/styles/ThemeProvider';
+import OrgChart from '../OrgChart';
+
+const theme = createMuiTheme({
+  palette: {
+    primary: {
+      light: "#81bced",
+      main: "#4e8cba",
+      dark: "#0e5f8a",
+      contrastText: "#fff"
+    },
+    secondary: {
+      light: "#ffc04d",
+      main: "#fc8f13",
+      dark: "#c36000",
+      contrastText: "#fff"
+    },
+    text: {
+      primary: "rgba(0, 0, 0, 0.8)",
+      secondary: "rgba(0, 0, 0, 0.4)"
+    }
+  }
+});
 
 function App() {
   return (
-    <div className={"my-pretty-chart-container"}>
-      <Chart
-        width={'100%'}
-        height={350}
-        chartType="OrgChart"
-        loader={<div>Loading Chart</div>}
-        data={[
-          ['Name', 'Manager', 'ToolTip'],
-          [
-            {
-              v: 'Mike',
-              f: 'Mike<div style="color:red; font-style:italic">President</div>',
-            },
-            '',
-            'The President',
-          ],
-          [
-            {
-              v: 'Jim',
-              f:
-                'Jim<div style="color:red; font-style:italic">Vice President</div>',
-            },
-            'Mike',
-            'VP',
-          ],
-          ['Alice', 'Mike', ''],
-          ['Bob', 'Jim', 'Bob Sponge'],
-          ['Carol', 'Bob', ''],
-        ]}
-        options={{
-          allowHtml: true,
-          allowCollapse: true
-        }}
-        rootProps={{ 'data-testid': '1' }}
-      />
-    </div>
+    <ThemeProvider theme={theme}>
+      <OrgChart />
+    </ThemeProvider>
   );
 }
 
